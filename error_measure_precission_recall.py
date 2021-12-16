@@ -54,7 +54,7 @@ def false_positives(path, true_positives):
     return total-true_positives
     
     
-def precission_recall(true_positives, false_positives, false_negatives)
+def precission_recall(true_positives, false_positives, false_negatives):
     precission = true_positives/(true_positives + false_positives)
     recall = true_positives/(true_positives + false_negatives)
     return precission, recall
