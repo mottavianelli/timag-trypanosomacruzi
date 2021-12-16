@@ -52,3 +52,9 @@ def false_positives(path, true_positives):
     total = data.shape[0]-1
     print('Total labels fiji: ', total)
     return total-true_positives
+    
+    
+def precission_recall(true_positives, false_positives, false_negatives)
+    precission = true_positives/(true_positives + false_positives)
+    recall = true_positives/(true_positives + false_negatives)
+    return precission, recall
